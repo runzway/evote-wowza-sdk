@@ -211,4 +211,8 @@ export default class Subscriber {
     )
     return Promise.resolve()
   }
+
+  getPeerConnection () {
+    return this.pc
+  }
 }
