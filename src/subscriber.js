@@ -57,7 +57,10 @@ export default class Subscriber {
       .then(this.connectWebSocket.bind(this))
       .then(() => {
         logger.info('FINISH', this.stream)
-        return this.stream
+        return {
+          stream: this.stream,
+          pc: this.pc
+        }
       })
   }
 
