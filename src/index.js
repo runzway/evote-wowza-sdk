@@ -1,5 +1,5 @@
 /* @flow */
-import 'babel-polyfill'
+//import 'babel-polyfill'
 import { type Options } from './options'
 import Publisher from './publisher'
 import Subscriber from './subscriber'
